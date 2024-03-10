@@ -1,0 +1,57 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "author": {
+        "email": "lawenqader2010@gmail.com"
+    },
+    "name": "Halal extension",
+    "description": "Halal extension a google chrome extension developed to Block or break HARAM websites!",
+    "icons": {
+        "16": "./Images/16x.png",
+        "32": "./Images/32x.png",
+        "48": "./Images/48x.png",
+        "128": "./Images/128x.png"
+    },
+    "action": {
+        "default_icons": {
+            "16": "./Images/16x.png",
+            "32": "./Images/32x.png",
+            "48": "./Images/48x.png",
+            "128": "./Images/128x.png"
+        },
+        "default_popup": "./Popup/Index.html"
+    },
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>",
+            "https://*/*",
+            "http://*/*"
+        ],
+        "js": [
+            "./Javascript/Index.js"
+        ],
+        "type": "module"
+    }],
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "storage",
+        "sidePanel",
+        "tabs",
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": [ "Blocked_host.json" ],
+          "matches": [ "https://*/*", "http://*/*" ]
+        }
+    ],
+    "background": {
+        "service_worker": "Javascript/Background.js",
+        "type": "module"
+    }
+}
