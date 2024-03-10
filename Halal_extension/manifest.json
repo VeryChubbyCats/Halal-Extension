@@ -29,7 +29,7 @@
         ],
         "js": [
             "./Javascript/Index.js",
-            "./Javascript/Censore.js"
+            "./Javascript/Censor.js"
         ],
         "type": "module"
     }],
