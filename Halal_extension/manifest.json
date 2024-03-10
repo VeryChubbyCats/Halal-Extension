@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "version": "1.0",
+    "version": "1.1",
     "author": {
         "email": "lawenqader2010@gmail.com"
     },
@@ -28,7 +28,8 @@
             "http://*/*"
         ],
         "js": [
-            "./Javascript/Index.js"
+            "./Javascript/Index.js",
+            "./Javascript/Censore.js"
         ],
         "type": "module"
     }],
@@ -47,7 +48,7 @@
     "web_accessible_resources": [
         {
           "resources": [ "Blocked_host.json" ],
-          "matches": [ "https://*/*", "http://*/*" ]
+          "matches": [ "https://*/*", "http://*/*", "<all_urls>" ]
         }
     ],
     "background": {
