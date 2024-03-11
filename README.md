@@ -36,6 +36,9 @@ You have installed Halal extension!
 
 <strong>Version 1.2:</strong> version 1.2 of halal extension the latest version at the moment. Version 1.3 offer's a option to blur all Images and a revamped <strong>BLOCKED</strong> screen and a revamped Toggle menu.
 
+Please note that detection is coming in version 1.3. So expect the newly added features to version 1.2 to not work correctly.
+The newly added features witin version 1.2 are still in beta.
+
 <strong>Version 1.3</strong> version 1.3 of halal extension. Version 1.3 is under development the plan's for 1.3 are Site Detection instead of a list of websites to block and the blur option will be using a API to detect for NSFW content and blur them.
 
 # Images 🖼️
