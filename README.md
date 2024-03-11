@@ -34,7 +34,7 @@ You have installed Halal extension!
 
 <strong>Version 1.1:</strong> version 1.1 of halal extension offers blocking and text censoring against <strong>HARAM</strong> websites and text/words.
 
-<strong>Version 1.2:</strong> version 1.2 of halal extension the latest version at the moment. Version 1.3 offer's a option to blur all Images and a revamped <strong>BLOCKED</strong> screen and a revamped Toggle menu.
+<strong>Version 1.2:</strong> version 1.2 of halal extension the latest version at the moment. Version 1.2 offer's a option to blur all Images and a revamped <strong>BLOCKED</strong> screen and a revamped Toggle menu.
 
 Please note that detection is coming in version 1.3. So expect the newly added features to version 1.2 to not work correctly.
 The newly added features witin version 1.2 are still in beta.
