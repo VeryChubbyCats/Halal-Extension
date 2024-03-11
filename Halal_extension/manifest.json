@@ -29,7 +29,8 @@
         ],
         "js": [
             "./Javascript/Index.js",
-            "./Javascript/Censor.js"
+            "./Javascript/Censor.js",
+            "./Javascript/Blur.js"
         ],
         "type": "module"
     }],

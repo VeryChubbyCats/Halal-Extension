@@ -33,7 +33,7 @@ body {
     font-family: "Press Start 2P", system-ui, sans-serif;
     font-style: normal;
     font-size: 2rem;
-    margin: 3rem;
+    margin: 2rem;
     user-select: none;
 
     transition: 1s ease;
@@ -93,5 +93,26 @@ body {
 }
 
 .Toggle_Censore:hover {
+    box-shadow: 0 0 3.5rem 0.5rem #ffffff;
+}
+
+.Toggle_Blur {
+    color: #ffffff;
+    background: #ff0000;
+    border: 0 solid transparent;
+    border-radius: 1rem;
+    font-family: "Press Start 2P", system-ui, sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+
+    margin: 0.5rem;
+
+    width: 20rem;
+    height: 3rem;
+
+    transition: 1s ease;
+}
+
+.Toggle_Blur:hover {
     box-shadow: 0 0 3.5rem 0.5rem #ffffff;
 }

@@ -2,16 +2,13 @@ const body = document.getElementsByTagName("body")[0];
 
 const Blocked_words = [
     /porn/gi,
-    /dating/gi,
     /sex/gi,
     /sexual/gi,
     /nudes/gi,
     /gambling/gi,
     /gore/gi,
-    /18+/gi,
     /dick/gi,
     /cock/gi,
-    /oppsite gender/gi,
     /bully/gi,
     /bullying/gi
 ]
@@ -26,7 +23,6 @@ const Block_text = (Element) => {
 
             if (Element.textContent.match(B)) {
                 Element.textContent = Element.textContent.replace(B, `██████████`);
-                Element.parentElement.style.color = "#000000";
             };
         };
     };

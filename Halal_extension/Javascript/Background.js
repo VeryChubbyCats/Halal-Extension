@@ -8,5 +8,9 @@ const SetVariables = () => {
     chrome.storage.sync.set({ Censored: true }).then(() => {
         console.log("Censored variable was set correctly and successfully!");
     });
+
+    chrome.storage.sync.set({ Blur: false }).then(() => {
+        console.log("Blur variable was set correctly and successfully!");
+    });
     
 }; SetVariables();
