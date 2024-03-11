@@ -32,13 +32,17 @@ You have installed Halal extension!
 
 <strong>Version 1.0:</strong> The release of halal extension. Offers blocking against <strong>HARAM</strong> websites.
 
-<strong>Version 1.1:</strong> The latest version of halal extension at the moment. Offers blocking and text censoring against <strong>HARAM</strong> websites and text/words.
+<strong>Version 1.1:</strong> version 1.1 of halal extension offers blocking and text censoring against <strong>HARAM</strong> websites and text/words.
+
+<strong>Version 1.2:</strong> version 1.2 of halal extension the latest version at the moment. Version 1.3 offer's a option to blur all Images and a revamped <strong>BLOCKED</strong> screen and a revamped Toggle menu.
+
+<strong>Version 1.3</strong> version 1.3 of halal extension. Version 1.3 is under development the plan's for 1.3 are Site Detection instead of a list of websites to block and the blur option will be using a API to detect for NSFW content and blur them.
 
 # Images 🖼️
 
-![Screenshot from 2024-03-10 19-55-32](https://github.com/VeryChubbyCats/Halal-Extension/assets/159707613/e133b0a5-b60a-4bbe-ae05-c414f01dd87a)
+![Screenshot from 2024-03-11 01-45-55](https://github.com/VeryChubbyCats/Halal-Extension/assets/159707613/23fc6794-9cdc-44d5-be71-ddaf04f8ee8a)
 
-![Screenshot from 2024-03-10 15-56-03](https://github.com/VeryChubbyCats/Halal-Extension/assets/159707613/f2c6cba4-4ac4-4a23-81a5-9a44a39691b2)
+![Screenshot from 2024-03-11 01-45-38](https://github.com/VeryChubbyCats/Halal-Extension/assets/159707613/75a5ef26-9d65-443b-9864-4ae3c2deac7d)
 
 # Note 📝
 
